@@ -9,6 +9,7 @@
 - <a href="#autotests"> Запуск автотестов</a>
 - <a href="#jenkins"> Сборка в Jenkins</a>
 - <a href="#allureReport"> Пример Allure-отчета</a>
+- <a href="#allureReport2"> Пример отчета Allure TestOps</a>
 - <a href="#tg"> Уведомления в Telegram с использованием бота</a>
 - <a href="#movie">Видеопример прохождения тестов Browserstack</a>
 
@@ -60,6 +61,13 @@ gradle clean android_tests -DdeviceHost=browserstack
 ____
 <a id="allureReport"></a>
 ## <img width="30" style="vertical-align:middle" title="Allure Report" src="media/logo/allure.svg"> </a> Пример <a target="_blank" href="https://jenkins.autotests.cloud/job/c31_vmnqa_mobile_tests_wiki/56/allure/"> Allure-отчета </a>
+<p align="center">
+<img title="Allure Report" src="media/screenshots/screenshotsAllure.png">
+</p>
+
+____
+<a id="allureReport2"></a>
+## <img width="30" style="vertical-align:middle" title="Allure Report" src="media/logo/AllureTestOps.svg"> </a> Пример <a target="_blank" href="https://jenkins.autotests.cloud/job/c31_vmnqa_mobile_tests_wiki/56/allure/"> отчета Allure TestOps</a>
 <p align="center">
 <img title="Allure Report" src="media/screenshots/screenshotsAllure.png">
 </p>
