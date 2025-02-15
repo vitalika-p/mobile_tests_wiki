@@ -17,7 +17,7 @@ public class SearchTests extends TestBase {
     @Tag("android")
     @DisplayName("Вывод результатов поиска")
     void successfulSearchTest() {
-        back();
+        onboardingScreen.goBack();
         searchScreen.openSearchPage();
         searchScreen.enterValidQuery("");
         searchScreen.verifySearchFieldContainsText("");
@@ -38,12 +38,11 @@ public class SearchTests extends TestBase {
     }
 
 
-  
     @Test
     @Tag("android")
     @DisplayName("Открытие первого результата и проверка названия статьи")
     void verifyArticleTitleTest() {
-        back();
+        onboardingScreen.goBack();
         searchScreen.openSearchPage();
         searchScreen.enterValidQuery("");
         searchScreen.verifySearchFieldContainsText("");

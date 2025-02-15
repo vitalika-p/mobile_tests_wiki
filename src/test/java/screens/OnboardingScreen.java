@@ -6,6 +6,7 @@ import io.qameta.allure.Step;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.back;
 import static io.appium.java_client.AppiumBy.id;
 
 public class OnboardingScreen {
@@ -32,6 +33,11 @@ public class OnboardingScreen {
     public static final String FOURTH_SCREEN_HEADER = "Data & Privacy";
     public static final String FOURTH_SCREEN_TEXT = "We believe that you should not have to provide personal information to participate in the free knowledge movement. " +
             "Usage data collected for this app is anonymous. Learn more about our privacy policy and terms of use.";
+
+    @Step("Нажимаем кнопку 'Назад' на экране поиска")
+    public void goBack() {
+        back();
+    }
 
     @Step("Проверить, содержит ли заголовок страницы текст {0}")
     public OnboardingScreen checkHeader(String header) {
