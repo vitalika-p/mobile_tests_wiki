@@ -11,7 +11,6 @@
 - <a href="#allureReport"> Пример Allure-отчета</a>
 - <a href="#tg"> Уведомления в Telegram с использованием бота</a>
 - <a href="#movie">Видеопример прохождения тестов Browserstack</a>
-- <a href="#movie1">Видеопример прохождения тестов локально на эмуляторе</a>
 
 
 Тесты написаны на языке <code>Java</code> с использованием фреймворка для автоматизации тестирования <code>[Selenide](https://selenide.org/)</code>, сборщик - <code>Gradle</code>.
@@ -81,11 +80,6 @@ ____
 <img title="Browserstack Video" src="media/screenshots/BrowserStack.gif" width="350" height="750"  alt="video">   
 </p>
 
-____
-<a id="movie1"></a>
-## <img alt="AndroidStudio" height="25" src="media/logo/as.png" width="35"/></a> Видеопример прохождения тестов локально на эмуляторе
-<p align="center">
-<img title="Android Studio" src="media/screenshots/" width="350" height="750"  alt="video">   
-</p>
+
 
 [Наверх ⬆](#наверх)
