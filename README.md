@@ -69,7 +69,7 @@ ____
 <a id="allureReport2"></a>
 ## <img width="30" style="vertical-align:middle" title="Allure Report" src="media/logo/AllureTestOps.svg"> </a> Пример <a target="_blank" href="https://jenkins.autotests.cloud/job/c31_vmnqa_mobile_tests_wiki/56/allure/"> отчета Allure TestOps</a>
 <p align="center">
-<img title="Allure Report" src="media/screenshots/screenshotsAllure.png">
+<img title="Allure Report" src="media/screenshots/allure.png">
 </p>
 
 ____
