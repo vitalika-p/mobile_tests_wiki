@@ -12,6 +12,7 @@
 - <a href="#allureReport2"> Пример отчета Allure TestOps</a>
 - <a href="#tg"> Уведомления в Telegram с использованием бота</a>
 - <a href="#movie">Видеопример прохождения тестов Browserstack</a>
+- <a href="#movie2">Видеопример прохождения тестов локально</a>
 
 
 Тесты написаны на языке <code>Java</code> с использованием фреймворка для автоматизации тестирования <code>[Selenide](https://selenide.org/)</code>, сборщик - <code>Gradle</code>.
@@ -49,7 +50,7 @@ gradle clean android_tests -DdeviceHost=browserstack
 ```
 ---
 <a id="jenkins"></a>
-## <img width="20" style="vertical-align:middle" title="Jenkins" src="media/logo/jenkins.svg"> </a> Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/c31_vmnqa_mobile_tests_wiki/"> Jenkins </a>
+## <img width="30" style="vertical-align:middle" title="Jenkins" src="media/logo/jenkins.svg"> </a> Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/c31_vmnqa_mobile_tests_wiki/"> Jenkins </a>
 Для доступа в Jenkins необходима регистрация на ресурсе [Jenkins](https://jenkins.autotests.cloud/) 
 Для запуска сборки необходимо нажать кнопку <code>Build now</code>.
 <p align="center">
@@ -83,9 +84,16 @@ ____
 
 ____
 <a id="movie"></a>
-## <img alt="Browserstack" height="25" src="media/logo/Browserstack.svg" width="25"/></a> Видеопример выполнения теста Browserstack
+## <img alt="Browserstack" height="30" src="media/logo/Browserstack.svg" width="30"/></a> Видеопример выполнения теста Browserstack
 <p align="center">
 <img title="Browserstack Video" src="media/screenshots/BrowserStack.gif" width="350" height="750"  alt="video">   
+</p>
+
+____
+<a id="movie2"></a>
+## <img alt="Local" height="30" src="media/logo/and.png" width="30"/></a> Видеопример выполнения теста локально
+<p align="center">
+<img title="Local Video" src="media/screenshots/Local.gif" width="350" height="750"  alt="video">   
 </p>
 
 

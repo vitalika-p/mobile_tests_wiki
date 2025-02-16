@@ -37,7 +37,6 @@ public class SearchTests extends TestBase {
         articleScreen.verifyErrorPageWithText();
     }
 
-
     @Test
     @Tag("android")
     @DisplayName("Открытие первого результата и проверка названия статьи")
