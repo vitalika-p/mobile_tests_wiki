@@ -1,10 +1,11 @@
-<h1 align="center">Проект по автоматизации тестирования мобильного приложения Wikipedia</h1>
+# Проект по автоматизации тестоирования мобильного прилоежния [Wikipedia](https://ru.wikipedia.org)
 <p align="center">
 <a href="https://ru.wikipedia.org/"><img title="https://ru.wikipedia.org/" src="media/logo/img.jpg"></a>
 </p>
 
 
 ##  Содержание:
+- <a href="#tools"> Технологии и инструменты</a>
 - <a href="#cases"> Тест-кейсы</a>
 - <a href="#autotests"> Запуск автотестов</a>
 - <a href="#jenkins"> Сборка в Jenkins</a>
@@ -16,7 +17,6 @@
 
 
 Тесты написаны на языке <code>Java</code> с использованием фреймворка для автоматизации тестирования <code>[Selenide](https://selenide.org/)</code>, сборщик - <code>Gradle</code>.
-
 <code>JUnit 5</code> задействован в качестве фреймворка модульного тестирования.
 
 Для локального тестирования приложения на мобильных устройствах используется <code>Android Studio</code> и <code>Appium</code>.
@@ -24,6 +24,24 @@
 
 Для удаленного запуска реализована джоба в <code>Jenkins</code> с формированием Allure-отчета
 и отправкой результатов в <code>Telegram</code> при помощи бота.
+
+____
+<a id="tools"></a>
+## 🔨 Технологии и инструменты:
+<div align="center">
+<a href="https://www.jetbrains.com/idea/"><img alt="InteliJ IDEA" height="50" src="media/logo/Intelij_IDEA.svg" width="50"/></a>
+<a href="https://github.com/"><img alt="GitHub" height="50" src="media/logo/GitHub.svg" width="50"/></a>  
+<a href="https://www.java.com/"><img alt="Java" height="50" src="media/logo/Java.svg" width="50"/></a>
+<a href="https://gradle.org/"><img alt="Gradle" height="50" src="media/logo/Gradle.svg" width="50"/></a>  
+<a href="https://junit.org/junit5/"><img alt="JUnit 5" height="50" src="media/logo/JUnit5.svg" width="50"/></a>
+<a href="https://selenide.org/"><img alt="Selenide" height="50" src="media/logo/Selenide.svg" width="50"/></a>
+<a href="https://www.jenkins.io/"><img alt="Jenkins" height="50" src="media/logo/jenkins.svg" width="50"/></a>
+<a href="https://www.browserstack.com/"><img alt="Browserstack" height="50" src="media/logo/Browserstack.svg" width="50"/></a>
+<a href="https://github.com/allure-framework/"><img alt="Allure Report" height="50" src="media/logo/allure.svg" width="50"/></a>
+<a href="https://qameta.io/"><img alt="Allure TestOps" height="50" src="media/logo/AllureTestOps.svg" width="50"/></a>
+<a href="https://telegram.org/"><img alt="Telegram" height="50" src="media/logo/telegram.svg" width="50"/></a>
+<a href="https://developer.android.com/studio?hl=ru"><img alt="AndroidStudio" height="50" src="media/logo/as.png" width="50"/></a>
+</div>
 
 ____
 <a id="cases"></a>
