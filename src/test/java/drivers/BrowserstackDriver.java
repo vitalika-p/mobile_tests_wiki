@@ -5,6 +5,7 @@ import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+
 import static helpers.BrowserstackHelper.getBrowserstackUrl;
 import static config.ProjectConfig.appConfig;
 import static config.ProjectConfig.deviceConfig;

@@ -12,7 +12,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class ArticleScreen {
     private final SelenideElement errorText = $(id("org.wikipedia.alpha:id/view_wiki_error_text")),
-    articleTitle = $(className("android.webkit.WebView"));
+            articleTitle = $(className("android.webkit.WebView"));
 
 
     @Step("Проверить текст ошибки на экране статьи")

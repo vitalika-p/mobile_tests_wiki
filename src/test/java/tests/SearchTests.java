@@ -23,7 +23,7 @@ public class SearchTests extends TestBase {
         searchScreen.verifySearchFieldContainsText("");
         searchScreen.checkResultsQuantity();
     }
-    
+
 
     @Disabled
     @Test

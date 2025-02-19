@@ -1,7 +1,7 @@
 plugins {
     id 'java-library'
     id 'java'
-    id ('io.qameta.allure') version '2.12.0'
+    id('io.qameta.allure') version '2.12.0'
 }
 
 allure {
@@ -29,8 +29,6 @@ def aspectjWeaverVersion = "1.9.22",
     junitVersion = "5.9.3",
     slf4jVersion = "2.0.7",
     ownerVersion = "1.0.4"
-
-
 
 
 tasks.withType(JavaCompile).configureEach {
